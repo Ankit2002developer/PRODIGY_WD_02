@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Interactive stopwatch</title>
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/8671/8671450.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Hind+Madurai:wght@300;400;500;600;700&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <h1>Interactive&nbsp; stopwatch</h1>
+    <div class="container">
+
+        <div class="stopwatch">
+            <div class="outer-layer">
+                <div class="inner-layer">
+                    <h2 id="hr">00</h2>
+                    <h2>:</h2>
+                    <h2 id="min">00</h2>
+                    <h2>:</h2>
+                    <h2 id="sec">00</h2>
+                    <h2>:</h2>
+                    <h2 id="msec">00</h2>
+                </div>
+            </div>
+        </div>
+        <div class="controls">
+            <button id="start">Start</button>
+            <button class="hidden" id="lap">Lap</button>
+            <button id="reset">Reset</button>
+
+        </div>
+            
+            
+        <ul id="lap-ul">
+            
+        </ul>
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
